@@ -1,0 +1,115 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.navigation .sub-menu{
+    padding-top: 2rem;
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
+    transition: all .3s;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    width: 120%;
+    
+}
+.navigation .sub-menu li{
+    padding: 1rem;
+}
+.navigation li:hover > .sub-menu{
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    height: auto;
+}
+.navigation .sub-menu li .sub-menu{
+    left: 100%;
+}
+.active-menu a::after,
+.highlighter::after{
+    content: " ";
+    height: 3px;
+    width: 30px;
+    display: block;
+    margin-top: 2px;
+    background: #54c0d5; 
+    border-radius: 2px;
+}
+.highlighter::after{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+}
+.min-h-450{
+    min-height: 600px;
+}
+.svg-path-top{
+    font-size: 180px;
+    bottom: -1.115rem;
+}
+.svg-path-bottom{
+    font-size: 180px;
+    bottom: 0;
+    transform: translateY(83%);
+}
+.contact .contact-numbers{
+    columns: 2;
+}
+.icon-longline::after{
+    content: " ";
+    display: inline-block;
+    height: 3px;
+    background: #131313;
+    width: 60%;
+    vertical-align: middle;
+}
+/* fieldset input:empty + label{
+    color: #313030;
+} */
+fieldset input:focus{
+    height: 4rem;
+    padding-top: 0.75rem;
+    width: 100%;
+}
+fieldset input:focus + label{
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    font-size: .75rem;
+}
+fieldset input:valid + label{
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    color:green;
+    font-size: .75rem;
+}
+fieldset input:invalid + label{
+    color: red;
+}
+.water-curve{
+    bottom: -2.23rem;
+    font-size: 44px;
+}
+.subscribe .water-curve::before{
+    color: #bfbfbf;
+}
+::before,
+::after{
+    display: inline-block;
+    vertical-align: middle;
+}
+.search-box .search-link{
+    line-height: 2;
+}
+.home-slider-box {
+    left: 50%;
+    top: 14rem !important;
+    transform: translateX(-50%);
+}

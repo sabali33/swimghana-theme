@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?s4b78j');
+  src:  url('fonts/icomoon.eot?s4b78j#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?s4b78j') format('truetype'),
+    url('fonts/icomoon.woff?s4b78j') format('woff'),
+    url('fonts/icomoon.svg?s4b78j#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-water-curve:before {
+  content: "\e908";
+  color: #f8f8f8;
+}
+.icon-search:before {
+  content: "\e919";
+}
+
+.icon-cap:before {
+  content: "\e917";
+}
+/* .icon-goggles:before {
+  content: "\e917";
+} */
+.icon-pull-buoy:before {
+  content: "\e918";
+}
+.icon-checked:before {
+  content: "\e901";
+  color: #5fd491;
+}
+.icon-empty-star:before {
+  content: "\e902";
+}
+.icon-filled-star:before {
+  content: "\e903";
+}
+.icon-slider-pointer:before {
+  content: "\e904";
+  color: #f8f8f8;
+}
+.icon-facebook:before {
+  content: "\e905";
+}
+.icon-twitter:before {
+  content: "\e906";
+}
+.icon-instagram:before {
+  content: "\e907";
+}
+.icon-angle-down:after {
+  content: "\e909";
+  color: #9a9797;
+}
+.icon-Component-2--1:before {
+  content: "\e90c";
+}
+.icon-arrow-right-double:before {
+  content: "\e90e";
+  color: #54c0d5;
+}
+.icon-cart:before {
+  content: "\e90f";
+  color: #f8f8f8;
+}
+.icon-copyright:before {
+  content: "\e910";
+  color: #bfbfbf;
+}
+.icon-user:before {
+  content: "\e911";
+  color: #f8f8f8;
+}
+.icon-bottom-path:before {
+  content: "\e912";
+  color: #f8f8f8;
+}
+.icon-top-path:before {
+  content: "\e913";
+  color: #f8f8f8;
+}
+.icon-angle-left:before {
+  content: "\e90a";
+}
+.icon-angle-right:after {
+  content: "\e90b";
+}
+.icon-close:before {
+  content: "\e914";
+}
+.icon-angle-up:before {
+  content: "\e900";
+}
+.icon-cap:before {
+  content: "\e917";
+}
+.icon-goggles:before {
+  content: "\e91a";
+}
+.icon-trunk:before {
+  content: "\e91b";
+}
+.icon-trunk .path1:before {
+  content: "\e91b";
+  color: rgb(71, 53, 53);
+}
+.icon-trunk .path2:before {
+  content: "\e91c";
+  margin-left: -0.9873046875em;
+  color: rgb(232, 211, 211);
+}
+.icon-trunk .path3:before {
+  content: "\e91d";
+  margin-left: -0.9873046875em;
+  color: rgb(232, 211, 211);
+}
+.icon-trunk .path4:before {
+  content: "\e91e";
+  margin-left: -0.9873046875em;
+  color: rgb(232, 211, 211);
+}
+.icon-trunk .path5:before {
+  content: "\e91f";
+  margin-left: -0.9873046875em;
+  color: rgb(232, 211, 211);
+}
+.icon-trunk .path6:before {
+  content: "\e920";
+  margin-left: -0.9873046875em;
+  color: rgb(225, 203, 203);
+}
+.icon-big:before{
+  font-size: 40px;
+  margin-right: 1rem;
+}
+.icon:before{
+  margin-right: 1rem;
+  font-size: 16px;
+}
+.icon-mo:before{
+  margin-right: 1rem;
+}
